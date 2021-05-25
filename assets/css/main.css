@@ -163,14 +163,14 @@ textarea {
 /* Basic */
 
 #logo {
-  margin: 0.5em 0 0 3em;
+  margin: 1em 0 0 1.5em;
 
   /* padding: 3em 10em; */
   background-image: url("../../images/logo_kseta.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 20rem;
-  height: 6rem;
+  width: 15em;
+  height: 5em;
 }
 
 html {
@@ -3536,7 +3536,7 @@ body.landing .dropotron.level-0 {
 
 #header nav ul li {
   display: inline-block;
-  margin-left: 5em;
+  margin-left: 1em;
 }
 
 #header nav ul li a,
@@ -3547,7 +3547,7 @@ body.landing .dropotron.level-0 {
   height: inherit;
   line-height: inherit;
   outline: 0;
-  font-weight: 500;
+  font-weight: 650;
 }
 
 #header nav ul li a.button,
