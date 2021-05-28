@@ -199,7 +199,7 @@ textarea {
 }
 
 .devide {
-  padding: 1em 0em 0em 1em;
+  padding: 0.7em 0em 0em 1em;
 }
 #logo {
   /* margin: 0 0 0 1.5em; */
@@ -210,8 +210,8 @@ textarea {
   background-image: url("../../images/logo_kseta.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 15em;
-  height: 5em;
+  width: 14em;
+  height: 4em;
 }
 
 html {
@@ -3567,7 +3567,7 @@ body.landing .dropotron.level-0 {
 /* 바꾼곳 */
 
 #header nav {
-  margin-top: 3.3em;
+  margin-top: 2.5em;
   position: absolute;
   right: 5em;
   top: 0;
