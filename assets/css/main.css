@@ -162,12 +162,33 @@ textarea {
 
 /* Basic */
 /* 변경부분 */
+
+.head {
+  padding-left: 1.5em;
+  /* margin-right: 5em; */
+}
+
+.kseta {
+  /* padding-left: 4em; */
+  /* margin-left: 4em; */
+}
+.kseta p {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
 .join {
-  display: flex;
-  justify-content: center;
-  border-radius: 2px;
-  border-color: #ffffff;
-  border-style: solid;
+  /* position: relative;
+  display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+  margin: 0 auto;
+  /* border: solid 1.5px rgb(179, 179, 179); */
+  /* width: 50%; */
+  /* height: 2.5em; */
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
 }
 #logo {
   margin: 1em 0 0 1.5em;
@@ -3696,8 +3717,8 @@ body.is-touch #banner {
 
 #footer {
   background: #272833;
-  padding: 6em 0;
-  text-align: center;
+  padding: 3em 0;
+  /* text-align: center; */
 }
 
 #footer .icons .icon.alt {
