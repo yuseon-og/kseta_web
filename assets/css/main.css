@@ -163,6 +163,13 @@ textarea {
 /* Basic */
 /* 변경부분 */
 
+#nav li {
+}
+.coverdevide {
+  background-color: rgba(23, 24, 32, 0.95);
+  opacity: 0.7;
+}
+
 .head {
   padding-left: 1.5em;
   /* margin-right: 5em; */
@@ -190,8 +197,14 @@ textarea {
   font-weight: 800;
   letter-spacing: 0.05em;
 }
+
+.devide {
+  padding: 1em 0em 0em 1em;
+}
 #logo {
-  margin: 1em 0 0 1.5em;
+  /* margin: 0 0 0 1.5em; */
+  /* padding-top: 6em; */
+  /* padding-bottom: 10em; */
 
   /* padding: 3em 10em; */
   background-image: url("../../images/logo_kseta.png");
@@ -3535,7 +3548,7 @@ body.landing .dropotron.level-0 {
   cursor: default;
   height: 3.5em;
   left: 0;
-  line-height: 3.5em;
+  /* line-height: 3.5em; */
   position: fixed;
   top: 0;
   width: 100%;
@@ -3572,12 +3585,14 @@ body.landing .dropotron.level-0 {
 #header nav ul li a,
 #header nav ul li span {
   border: 0;
-  color: inherit;
+  /* color: inherit; */
   display: inline-block;
   height: inherit;
   line-height: inherit;
   outline: 0;
-  font-weight: 650;
+  font-weight: 550;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
 }
 
 #header nav ul li a.button,
@@ -3608,7 +3623,11 @@ body.landing #page-wrapper {
 body.landing #header {
   background: transparent;
   box-shadow: none;
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
+  /* top: 0;
+  left: 0;
+  right: 0; */
 }
 
 /* Banner */
